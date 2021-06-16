@@ -17,7 +17,7 @@ cv2.waitKey(0)
 '''
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
-something, anything = "Something","Anything" #change to any variable type or string that you want, upto three values can be sent in params
+
 cap = cv2.VideoCapture(0)
 while True:
     ret, img = cap.read()
